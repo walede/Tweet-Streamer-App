@@ -3,8 +3,8 @@ from tkinter import *
 from tkinter import messagebox
 import tkinter.font as tkFont
 from tkinter import ttk
-from db_sqlite import Database
-import streamer_sqlite
+from db import Database
+import streamer
 import tweepy
 import re
 import time
