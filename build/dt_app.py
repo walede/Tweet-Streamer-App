@@ -591,10 +591,10 @@ class Application(Frame):
 
 root = Tk()
 app = Application(root)
-consumer_key = 'qjEdyYJQPDquigJtZrTElb5Ep'
-consumer_secret = 'BCBIdFKrHytLas1z9w2PLoCrOAYie6Xt6zQKwCFzjBdeo7aznD'
-access_token = '1215106889295564800-tZ1ns9Ow6KgZVAUs5QQwcG4MPhWwHN'
-access_secret = 'k06j4izn2YUGrB4N1CZLLNa0XoLXdhoHg1smMovgZJCGV'
+consumer_key = #tweepy consumer key
+consumer_secret = #tweepy consumer_secret
+access_token = #tweepy access token
+access_secret = #tweepy access_secret
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
 api = tweepy.API(auth)
